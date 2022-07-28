@@ -1,1 +1,1 @@
-# d1-lang-vscode-fileType
+# D1 Language Type

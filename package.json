@@ -1,0 +1,48 @@
+{
+   "name": "d1-lang-vscode-filetype",
+   "version": "1.0.0",
+   "description": "D1 Programming Language File-Type Extension",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/D1Production/d1-lang-vscode-fileType.git"
+   },
+   "author": "Damien Arriens",
+   "publisher": "D1Production",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/D1Production/d1-lang-vscode-fileType/issues"
+   },
+   "homepage": "https://github.com/D1Production/d1-lang-vscode-fileType#readme",
+   "devDependencies": {
+      "vsce": "^2.10.0"
+   },
+   "engines": {
+      "vscode": "^1.52.0"
+   },
+   "main": "extension.ts",
+   "activationEvents": [
+      "onLanguage:d1"
+   ],
+   "icon": "https://github.com/D1Production/.github/blob/main/d1icon.png",
+   "contributes": {
+      "languages": [
+         {
+            "id": "d1",
+            "aliases": [
+               "D1"
+            ],
+            "extensions": [
+               ".d1",
+               ".d1x"
+            ],
+            "icon": {
+               "dark": "/images/d1production.png",
+               "light": "/images/d1production.png"
+            }
+         }
+      ]
+   },
+   "dependencies": {
+      "@types/vscode": "^1.69.0"
+   }
+}
