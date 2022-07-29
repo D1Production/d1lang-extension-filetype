@@ -19,7 +19,7 @@
    "engines": {
       "vscode": "^1.52.0"
    },
-   "icon": "https://raw.githubusercontent.com/D1Production/.github/main/d1production.png",
+   "icon": "images/d1production.png",
    "contributes": {
       "languages": [
          {
@@ -32,8 +32,8 @@
                ".d1x"
             ],
             "icon": {
-               "dark": "https://raw.githubusercontent.com/D1Production/.github/main/d1icon.png",
-               "light": "https://raw.githubusercontent.com/D1Production/.github/main/d1icon.png"
+               "dark": "images/d1icon.png",
+               "light": "images/d1icon.png"
             }
          }
       ]
