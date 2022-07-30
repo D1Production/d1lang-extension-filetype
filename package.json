@@ -1,7 +1,7 @@
 {
    "name": "d1lang-filetype",
    "displayName": "D1Lang Filetype",
-   "version": "1.0.3",
+   "version": "1.0.4",
    "description": "D1 Programming Language File-Type Extension",
    "repository": {
       "type": "git",
